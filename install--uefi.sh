@@ -34,7 +34,7 @@ systemctl enable libvirtd
 systemctl enable firewalld
 systemctl enable acpid
 
-useradd -m ermanno
+useradd -m wisman
 echo wisman:wizerd12 | chpasswd
 usermod -aG libvirt wisman
 
